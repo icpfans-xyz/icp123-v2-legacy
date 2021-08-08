@@ -1,16 +1,16 @@
 /*
  * @Author: your name
  * @Date: 2021-08-07 14:06:16
- * @LastEditTime: 2021-08-07 14:53:54
+ * @LastEditTime: 2021-08-08 15:31:20
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /icp123-v2/layouts/side-menu/data.js
  */
 export default [
     {
-        icon: 'HomeIcon',
-        pageName: 'side-menu-dashboard',
-        title: 'Dashboard',
+        icon: 'Home',
+        pageName: 'Dapp',
+        title: 'Dapp',
         subMenu: [
             {
                 icon: '',
