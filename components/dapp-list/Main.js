@@ -3,6 +3,7 @@
 import Link from 'next/link'
 import Layout from '../../layouts/Main'
 import menuData from '../../public/projectData'
+import { useState } from 'react'
 // import Image from 'next/image'
 import * as Icon from 'react-feather'
 import * as R from 'ramda'
@@ -14,7 +15,17 @@ export default function DappList({ children, tagLabel }) {
         const tags = project.tags.split(',')
         return tags.includes(tagLabel)
     }
-    const dappList = R.filter(filter, menuData)
+    const filterList = R.filter(filter, menuData)
+    const [dappList, setDappList] = useState(filterList)
+    const search = e => {
+        console.log(e.target.value)
+        setDappList(oldList => {
+            const filterFn = project => {
+                return project.title.toLowerCase().indexOf(e.target.value) !== -1 || project.tags.toLowerCase().indexOf(e.target.value) !== -1
+            }
+            return e.target.vlaue !== '' ? R.filter(filterFn, filterList) : filterList
+        })
+    }
     return (
         <Layout>
             <div className="grid grid-cols-12">
@@ -24,14 +35,17 @@ export default function DappList({ children, tagLabel }) {
                         <div className="intro-x relative mr-3 sm:mr-6 mt-9">
                             <div className="search hidden sm:block">
                                 <input
+                                    onChange={(e) =>
+                                        search(e)
+                                    }
                                     type="text"
                                     className="search__input form-control border-transparent placeholder-theme-13"
                                     placeholder="Search..."
                                 />
-                                <Icon.Search class="search__icon dark:text-gray-300" />
+                                <Icon.Search className="search__icon dark:text-gray-300" />
                             </div>
                             <a className="notification sm:hidden" href="">
-                                <Icon.Search class="notification__icon dark:text-gray-300" />
+                                <Icon.Search className="notification__icon dark:text-gray-300" />
                             </a>
                         </div>
                     </div>

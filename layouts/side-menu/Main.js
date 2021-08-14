@@ -12,7 +12,7 @@ import { useRouter } from 'next/router'
 import { useState } from 'react'
 import { nestedMenu } from './index'
 import * as Icon from 'react-feather'
-import * as R from 'ramda'
+// import * as R from 'ramda'
 export default function SideMenu({ children }) {
     const router = useRouter()
     const sideMenu = nestedMenu(sideData, router)
