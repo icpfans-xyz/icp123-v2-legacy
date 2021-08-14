@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2021-08-07 14:06:16
- * @LastEditTime: 2021-08-08 15:31:20
+ * @LastEditTime: 2021-08-14 02:42:30
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /icp123-v2/layouts/side-menu/data.js
@@ -9,23 +9,33 @@
 export default [
     {
         icon: 'Home',
-        pageName: 'Dapp',
-        title: 'Dapp',
+        pageName: '/',
+        title: 'Dapps',
         subMenu: [
             {
                 icon: '',
-                pageName: 'side-menu-dashboard-overview-1',
-                title: 'Overview 1'
+                pageName: 'defi',
+                title: 'DeFi'
             },
             {
                 icon: '',
-                pageName: 'side-menu-dashboard-overview-2',
-                title: 'Overview 2'
+                pageName: 'tool',
+                title: 'Tool'
             },
             {
                 icon: '',
-                pageName: 'side-menu-dashboard-overview-3',
-                title: 'Overview 3'
+                pageName: 'community',
+                title: 'Community'
+            },
+            {
+                icon: '',
+                pageName: 'explorer',
+                title: 'Explorer'
+            },
+            {
+                icon: '',
+                pageName: 'wallet',
+                title: 'Wallet'
             }
         ]
     },

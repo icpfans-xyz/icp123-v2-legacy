@@ -1,12 +1,13 @@
 /*
  * @Author: your name
  * @Date: 2021-08-04 17:12:10
- * @LastEditTime: 2021-08-07 02:21:24
+ * @LastEditTime: 2021-08-13 14:51:51
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /icp-dao/Users/chenglei/work/icp123-v2/tailwind.config.js
  */
 const primaryColors = require('@left4code/tw-starter/dist/js/colors')
+// const plugin = require('tailwindcss/plugin')
 
 module.exports = {
     mode: 'jit',
@@ -16,6 +17,9 @@ module.exports = {
     //     './resources/**/*.{php,html,js,jsx,ts,tsx,vue}',
     //     './node_modules/@left4code/tw-starter/**/*.js'
     // ],
+    plugins: [
+        require('@tailwindcss/line-clamp')
+    ],
     darkMode: 'class',
     theme: {
         borderColor: theme => ({

@@ -11,6 +11,7 @@
   "dependencies": {
     "@left4code/tw-starter": "^1.1.0",
     "@popperjs/core": "^2.9.3",
+    "@tailwindcss/line-clamp": "^0.2.1",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "cash-dom": "^8.1.0",
