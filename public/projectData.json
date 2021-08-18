@@ -39,7 +39,7 @@
     },
     {
         "title": "Stoic Wallet",
-        "desc": "Stoic Wallet by Toniq Labs allows anyone to create a digital wallet.",
+        "desc": "Stoic Wallet allows anyone to create a digital wallet.",
         "about": "Stoic Wallet by Toniq Labs allows anyone to create a digital wallet, authenticating users through a variety of methods, one of those being Internet Identity. Create accounts, keep an address book, and more.",
         "url": "https://www.stoicwallet.com/",
         "logo": "stoic",
@@ -89,7 +89,7 @@
     },
     {
         "title": "DSCVR",
-        "desc": "a completely decentralized social content platform running on the #InternetComputer beta preview started!",
+        "desc": "A completely decentralized social content platform running on the #InternetComputer beta preview started!",
         "about": "At DSCVR (pronounced discover) which is currently in beta, our mission is to create a decentralized social content aggregation platform where users not only control the content, but also the platform itself. Think Reddit, if Reddit’s development was run by its most dedicated community members.",
         "url": "https://h5aet-waaaa-aaaab-qaamq-cai.raw.ic0.app/",
         "logo": "DSCVR",
@@ -112,7 +112,7 @@
     {
         "title": "ICME",
         "desc": "The Internet Computer's first no-code website builder.",
-        "about": "The Internet Computer's first no-code website builder.",
+        "about": "ICME is a no-code tool that makes it easy for anyone to build and deploy beautiful websites on the Internet Computer. Launch your blog or business's website on the Internet Computer today.",
         "url": "https://sygsn-caaaa-aaaaf-qaahq-cai.raw.ic0.app/",
         "logo": "ICME",
         "tags": "Infrastructure,Tooling",
@@ -122,7 +122,7 @@
     },
     {
         "title": "Agryo",
-        "desc": "Agryo is global agricultural risk intelligence provider.",
+        "desc": "Agryo is the global agricultural risk intelligence provider.",
         "about": "Agryo is the global risk intelligence provider that enables financial institutions to assess and manage financial risks in the crop field level for underwriting agriculture insurance, loans, and trade finance globally; as well as meet sustainability goals.",
         "url": "https://www.agryo.com/",
         "logo": "Agryo",
@@ -133,7 +133,7 @@
     {
         "title": "ORIGYN Foundation",
         "desc": "We are on a mission to identify, authenticate and unlock the powers of ownership for objects of value.",
-        "about": "We are on a mission to identify, authenticate and unlock the powers of ownership for objects of value.",
+        "about": "The Origyn Foundation is blending luxury goods, with NFTs by providing digital verifications for physical objects. Only possible on the Internet Computer.",
         "url": "https://www.origyn.ch/",
         "logo": "ORIGYN",
         "tags": "Dapp,NFT",
@@ -174,7 +174,7 @@
     {
         "title": "Tacen",
         "desc": "Building the next generation of crypto exchanges.",
-        "about": "Building the next generation of crypto exchanges.",
+        "about": "Protect your privacy with the hDEX.Trade freely with Tacen, the all new Legal-First Non-Custodial Exchange.",
         "url": "https://tacen.com/",
         "logo": "tacen",
         "tags": "DeFi",
@@ -185,7 +185,7 @@
     {
         "title": "ICP Swap",
         "desc": "ICPSwap #DFINITY. The Hub of Future Decentralized Finance.",
-        "about": "ICPSwap #DFINITY. The Hub of Future Decentralized Finance.",
+        "about": "Reinventing the Exchange as a Hub that Provides Full-stack Financial, Market, and DAO Services on the Internet Computer",
         "url": "https://3pbcj-viaaa-aaaah-qaajq-cai.raw.ic0.app/",
         "logo": "ICPSwap",
         "tags": "DeFi",
@@ -196,8 +196,8 @@
     },
     {
         "title": "InfinitySwap",
-        "desc": "A platform to create, stake and swap Dfinity Tokens",
-        "about": "A platform to create, stake and swap Dfinity Tokens",
+        "desc": "A platform to create, stake and swap Dfinity Tokens.",
+        "about": "InfinitySwap (ISWAP) adopts a deflationary system where the more ISWAP are used the more tokens are burned. It will have a Max-Supply of 100 Millions and it can be used to earn platform fees, pay for platform services and get access to Airdrops and other awesome features.",
         "url": "https://infinityswap.one/",
         "logo": "infinity_swap",
         "tags": "DeFi",
@@ -217,7 +217,7 @@
     },
     {
         "title": "Dfistarter",
-        "desc": "DfiStarter is the first project accelerator for Dfinity",
+        "desc": "DfiStarter is the first project accelerator for Dfinity.",
         "about": "The first project accelerator on Dfinity, DfiStarter brings crowdfunding, PR, marketing, and tech support services to the Dfinity ecosystem.",
         "url": "https://dfistarter.io/",
         "logo": "dfistarter",
@@ -229,7 +229,7 @@
     {
         "title": "ICP Neuron Calculator",
         "desc": "Long time Internet Computer fan.",
-        "about": "Long time Internet Computer fan, creator of http://networknervoussystem.com and writer of https://allthingsinternetcomputer.substack.com",
+        "about": "The Network Nervous System Calculator is a calculator that allows anyone to edit variables and estimate voting rewards based on number of proposals voted on, length of stake, accumulated maturity, and more.",
         "url": "https://networknervoussystem.com/",
         "logo": "NNSystem",
         "tags": "Infrastructure,Dapp,Tooling",
